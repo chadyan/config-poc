@@ -5,7 +5,7 @@ zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 zuul.routes.orderingservice: /orderingservice/**
 zuul.routes.trpocclient.path: /trpoc-react-client/**
-zuul.routes.trpocclient.url: http://192.168.99.100:8088
+zuul.routes.trpocclient.url: http://192.168.99.100:8088/trpoc-react-client/
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
 #zuul.routes.licensestatic.serviceId: licensestatic
