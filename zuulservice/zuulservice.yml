@@ -3,7 +3,9 @@ zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
-zuul.routes.orderingservice: /orderingservice/**
+#zuul.routes.orderingservice: /orderingservice/**
+zuul.routes.orderingservice.path: /orderingservice/**
+zuul.routes.orderingservice.url: http://192.168.99.100:8080/spbt-jboss7-poc-orderhistory-1.1/
 zuul.routes.trpocclient.path: /pocclient/**
 zuul.routes.trpocclient.url: http://192.168.99.100:8088/trpoc-react-client/
 #zuul.routes.licensestatic.path: /licensestatic/**
